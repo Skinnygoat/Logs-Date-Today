@@ -8,7 +8,7 @@ def log():
     global logs
     now = datetime.datetime.now()
     command = input("Enter your command: ")
-    logs.append("{}.{}.{} :: {}:{} ==> {}".format(now.year, now.month, now.day, now.hour, now.minute, command))
+    logs.append("{}.{:02d}.{:02d} :: {:02d}:{:02d} ==> {}".format(now.year, now.month, now.day, now.hour, now.minute, command))
 
 def print_logs(l):
     for log in l:
