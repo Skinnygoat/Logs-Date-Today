@@ -1,5 +1,3 @@
-# __________CLOCK____________
-
 import datetime
 
 logs = []
