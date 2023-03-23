@@ -1,3 +1,4 @@
-# Clock
+Logs-Date-Today
 
-This is a simple clock log. Very first small code that I wrote in Python3.
+Simple code for printing the date and hour. Can act like calendar.
+
